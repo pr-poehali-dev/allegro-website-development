@@ -61,7 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				marketplace: {
+					blue: '#2563EB',
+					dark: '#1F2937',
+					light: '#F3F4F6',
+					dimka: '#FF6B35'
 				}
+			},
+			fontFamily: {
+				inter: ['Inter Variable', 'Inter', 'sans-serif'],
+				'open-sans': ['Open Sans Variable', 'Open Sans', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
